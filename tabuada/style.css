@@ -1,0 +1,33 @@
+body {
+    background-color: crimson;
+}
+
+header{
+    text-align: center;
+    color: white;
+    font: normal 20pt Arial;
+}
+
+section{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+div{
+    font: normal 15pt Arial;
+    margin: 10px;
+}
+
+/*section div#resDiv select{
+    height: 210px;
+}*/
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
