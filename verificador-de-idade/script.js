@@ -7,6 +7,9 @@ function verify(){
     if (year.length == 0 || year > thisYear){
         window.alert("Erro! Verifique os dados e tente novamente");
     } else {
+        if(window.document.getElementById('foto')){
+            window.document.getElementById('foto').remove();
+        }
         var gender = window.document.querySelector('input[name="gender"]:checked'); //querySelector já encontra o radio com a propriedade 'checked'. Usando getElementByName() seria preciso fazer um loop pelos radios
         var age = thisYear - year;
 
